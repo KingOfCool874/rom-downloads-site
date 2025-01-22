@@ -1,0 +1,2 @@
+mario.zip filter=lfs diff=lfs merge=lfs -text
+ocarinaOfTime.zip filter=lfs diff=lfs merge=lfs -text
