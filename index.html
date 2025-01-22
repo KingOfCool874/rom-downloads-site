@@ -9,20 +9,89 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 2em;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .section {
+            margin-top: 2em;
+            padding: 1em;
+            background-color: #e0e0e0;
+            border-radius: 8px;
+        }
+        .section h2 {
+            color: #2c3e50;
+        }
+        .console-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .console-list li {
+            margin: 10px 0;
         }
         a {
             text-decoration: none;
             color: #3498db;
             font-size: 1.2em;
         }
+        a:hover {
+            color: #1abc9c;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to the Download Center</h1>
-    <p>Click below to download files:</p>
-    <ul>
-        <li><a href="mario.zip" download>Super Mario 64!</a></li>
-        <li><a href="file2.zip" download>File 2</a></li>
-    </ul>
+    <p>Choose a console to download files:</p>
+
+    <!-- N64 Section -->
+    <div class="section">
+        <h2>Nintendo 64 (N64)</h2>
+        <ul class="console-list">
+            <li><a href="mario.zip" download>Super Mario 64</a></li>
+            <li><a href="ocarinaOfTime.zip" download>The Legend of Zelda: Ocarina of Time</a></li>
+            <li><a href="n64_game3.zip" download>GoldenEye 007</a></li>
+        </ul>
+    </div>
+
+    <!-- GBA Section -->
+    <div class="section">
+        <h2>Game Boy Advance (GBA)</h2>
+        <ul class="console-list">
+            <li><a href="gba_game1.zip" download>Pokémon FireRed</a></li>
+            <li><a href="gba_game2.zip" download>The Legend of Zelda: A Link to the Past</a></li>
+            <li><a href="gba_game3.zip" download>Super Mario Advance 3</a></li>
+        </ul>
+    </div>
+
+    <!-- SNES Section -->
+    <div class="section">
+        <h2>Super Nintendo Entertainment System (SNES)</h2>
+        <ul class="console-list">
+            <li><a href="snes_game1.zip" download>Super Mario World</a></li>
+            <li><a href="snes_game2.zip" download>The Legend of Zelda: A Link to the Past</a></li>
+            <li><a href="snes_game3.zip" download>Super Metroid</a></li>
+        </ul>
+    </div>
+
+    <!-- NES Section -->
+    <div class="section">
+        <h2>Nintendo Entertainment System (NES)</h2>
+        <ul class="console-list">
+            <li><a href="nes_game1.zip" download>Super Mario Bros.</a></li>
+            <li><a href="nes_game2.zip" download>The Legend of Zelda</a></li>
+            <li><a href="nes_game3.zip" download>Metroid</a></li>
+        </ul>
+    </div>
+
+    <!-- Sega Genesis Section -->
+    <div class="section">
+        <h2>Sega Genesis</h2>
+        <ul class="console-list">
+            <li><a href="genesis_game1.zip" download>Sonic the Hedgehog</a></li>
+            <li><a href="genesis_game2.zip" download>Streets of Rage 2</a></li>
+            <li><a href="genesis_game3.zip" download>Gunstar Heroes</a></li>
+        </ul>
+    </div>
 </body>
 </html>
