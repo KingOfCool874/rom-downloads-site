@@ -1,3 +1,6 @@
 mario.zip filter=lfs diff=lfs merge=lfs -text
 ocarinaOfTime.zip filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
+*.zip binary
+*.iso binary
+*.bin binary
